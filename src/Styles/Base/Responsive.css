@@ -1,0 +1,163 @@
+@media (max-width: 1250px){
+    .list-item span{
+        font-size: 12px;
+        margin: 2px;
+       
+    }
+    
+    .list-item .input-select,
+    .list-item .btn{
+        font-size: 12px;
+    }
+
+    .list-item .btn{
+        min-width: 20px;
+    }
+
+    .list-item .list-item-id,
+    .list-item .list-item-size{
+        width: 10px;
+    }
+    
+    /* Create */
+
+    .image-control .file-input{
+        width: 89px;
+    }
+
+    .list-item img{
+        width: 80px;
+    }
+}
+
+@media (max-width: 1200px){
+    .card-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 970px){
+    .card-container{
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .list-header.myOrder-header-status{
+        width: 50px;
+    }
+
+    .list-item .input-select{
+        width: 70px;
+    }
+}
+
+@media (max-width: 950px){
+    .myOrder-status{
+        width: auto;
+        font-size: 12px;
+    }
+
+    .item-control .btn{
+        margin: 3px;
+    }
+
+    .myOrder-table{
+        font-size: 12px;
+    }
+
+    tr .list-color-container{
+        width: auto;
+    }
+
+    tr .list-color-container span{
+        display: none;
+    }
+
+    .order tr .list-color-container span{
+        display: block;
+    }
+
+    td .item-control{
+        flex-direction: column;
+    }
+
+    .table-comment{
+        display: none;
+    }
+}
+
+@media (max-width: 830px){
+    .create-inputs{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-control .file-input,
+    .input-text
+    {
+        width: 260px;
+    }
+
+    .create-color .input-text{
+        width: 210px;
+    }
+
+    .create-inputs .input-select{
+        width: 270px;
+    }
+
+    .order-container{
+        width: 500px;
+        margin: 20px calc((100% - 500px)/2);
+    }
+
+    .delete-container{
+        width: 350px;
+        margin: 20px calc((100% - 280px)/2);
+    }
+}
+
+@media (max-width: 650px){
+
+    .filter-input-container .input-select{
+        margin: 0;
+    }
+
+    .filter-inputs{
+        column-gap: 30px
+    }
+
+    .card-container{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .list-item .color-container-second{
+        display: none;
+    }
+
+    .list-item .myOrder-color-container{
+        font-size: 12px;
+        margin: 2px;
+        width: 14px;
+    }
+
+    .myOrder-comment,
+    .list-item .myOrder-color-container,
+    .list-item .myOrder-size,
+    .list-item .myOrder-header-size,
+    .list-header.list-header-comment,
+    .list-header.myOrder-header-color{
+        display: none;
+    }
+
+    .order-container{
+        width: 350px;
+        margin: 20px calc((100% - 350px)/2);
+    }
+
+    .btn-item, .btn-filter{
+        min-width: 57px;
+    }
+}
+

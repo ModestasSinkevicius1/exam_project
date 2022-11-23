@@ -1,0 +1,29 @@
+.filter{
+    background-color: var(--main-color);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 50px;
+    box-shadow: var(--shadow-block);
+}
+
+.filter-search{
+    width: 100%;
+    text-align: center;
+}
+
+.filter .search-input{
+    width: 80%;
+}
+
+.filter-inputs{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.filter-input-container .input-select{
+    width: 80px;
+}
+

@@ -1,0 +1,53 @@
+@import url(./Base.css);
+
+@import url('../Components/Pagination.css');
+@import url('../Components/Filter.css');
+@import url('../Components/Create.css');
+@import url('../Components/Input.css');
+@import url('../Components/Modal.css');
+@import url('../Components/Table.css');
+
+@import url('../Pages/Login.css');
+@import url('../Pages/Home.css');
+@import url('../Pages/List.css');
+
+@import url('./Responsive.css');
+
+/* NAV */
+
+.App-header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+nav, .footer{
+    background-color: #aaa7a0;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-control a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.nav-link.active{
+    color: white;
+}
+
+.footer{
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+

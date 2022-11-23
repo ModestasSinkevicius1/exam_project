@@ -1,0 +1,116 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.pagination span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--pagination-color);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.page.active{
+    background-color: #aab5b5;
+}
+
+.page{
+    background-color: var(--pagination-color);
+}
+
+.pagination-arrow-back{
+    position: absolute;
+    left: 350px;
+}
+
+.pagination-arrow-front{
+    position: absolute;
+    right: 350px;
+}
+
+@media (max-width: 1250px){
+    .pagination-arrow-back{
+        left: 300px;
+    }
+    
+    .pagination-arrow-front{
+        right: 300px;
+    }
+}
+
+@media (max-width: 1150px){
+    .pagination-arrow-back{
+        left: 250px;
+    }
+    
+    .pagination-arrow-front{
+        right: 250px;
+    }
+}
+
+@media (max-width: 1050px){
+    .pagination-arrow-back{
+        left: 200px;
+    }
+    
+    .pagination-arrow-front{
+        right: 200px;
+    }
+}
+
+@media (max-width: 970px){
+    .pagination-arrow-back{
+        left: 150px;
+    }
+    
+    .pagination-arrow-front{
+        right: 150px;
+    }
+}
+
+@media (max-width: 850px){
+    .pagination-arrow-back{
+        left: 100px;
+    }
+    
+    .pagination-arrow-front{
+        right: 100px;
+    }
+}
+
+@media (max-width: 750px){
+    .pagination-arrow-back{
+        left: 50px;
+    }
+    
+    .pagination-arrow-front{
+        right: 50px;
+    }
+}
+
+@media (max-width: 650px){
+    .pagination span{
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 520px){
+    .pagination-arrow-back{
+        left: 20px;
+    }
+    
+    .pagination-arrow-front{
+        right: 20px;
+    }
+}
+

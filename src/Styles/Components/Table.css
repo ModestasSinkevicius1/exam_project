@@ -1,0 +1,28 @@
+.th, td{
+    width: 200px;
+}
+
+td{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+td .table-item,
+th .table-header{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: var(--shadow-input);
+    min-height: 20px;
+    text-align: center;
+}
+
+th{
+    margin: 10px;
+}
+
+td .item-control{
+    display: flex;
+}

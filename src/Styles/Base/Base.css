@@ -1,0 +1,9 @@
+:root{
+    --nav-color: #aaa7a0;
+    --main-color: #dcdad6;
+    --second-color: #c8c5c5;
+    --modal-color: bisque;
+    --pagination-color: #e0e8e8;
+    --shadow-input: 1px 1px 5px #000000a9;
+    --shadow-block: 2px 2px 5px #000000a9;
+}

@@ -1,0 +1,34 @@
+import { useContext } from "react";
+import DataContext from "../Context/DataContext.jsx";
+import close from '../assets/img/x.svg';
+
+function Delete(){
+
+    const { setModalDelete, modalDelete, setDeleteBook } = useContext(DataContext);
+
+    if(modalDelete === null){
+        return null;
+    }
+
+    const deleteRecord = () =>{
+        setDeleteBook(modalDelete);
+        setModalDelete(null);
+    }
+
+    return(
+        <div className="modal">
+            <div className="modal-container">
+                <img src={close} alt='Exit' className="btn-delete" onClick={() => setModalDelete(null)}></img>
+                <div className="modal-info-container">
+                    <h3 className="modal-info-title">Ar tikrai norite ištrinti knygą?</h3>
+                </div>
+                <div className="modal-btn-container">
+                    <button className="btn" onClick={() => setModalDelete(null)}>Ne</button>
+                    <button className="btn" onClick={deleteRecord}>Taip</button>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Delete;

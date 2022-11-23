@@ -1,0 +1,105 @@
+.list-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-title-home{
+    text-align: center;
+}
+
+
+.list{
+    margin: 10px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: var(--shadow-block);
+}
+
+/* ADMIN LIST ITEM */
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list-item{
+    background-color: var(--second-color);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.list-title{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: var(--shadow-input);
+    margin-right: 10px;
+}
+
+.list-item span{
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: var(--shadow-input);
+    width: 80px;
+    text-align: center;
+}
+
+.list-header>.list-header-image{
+    width: 200px;
+}
+
+.list-item img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.create-btn-top{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.list-container-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-not-found-img{
+    width: 300px;
+}
+
+.del-icon{
+    display: none;
+}
+
+.list-item,
+.list-header.list-header-comment{
+    overflow-wrap: break-word;
+    width: 160px;
+    min-height: 20px;
+}
+
+.btn-order{
+    margin: 5px;
+}
+
+.options span{
+    font-size: 12px;
+}

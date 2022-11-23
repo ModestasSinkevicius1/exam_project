@@ -1,0 +1,15 @@
+.create-inputs{
+    display: flex;
+}
+
+.create-container{
+    margin: 10px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: var(--shadow-block);
+}
+
+.create-empty{
+    height: 20px;
+}
